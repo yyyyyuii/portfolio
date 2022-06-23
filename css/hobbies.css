@@ -54,12 +54,14 @@
 .cafe__photo li{
   width: 250px;
   height: 250px;
-  margin: 0 auto 30px;;
+  margin: 0 auto 30px;
+  border-radius: 5px;
 }
 img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 5px;
 }
 
