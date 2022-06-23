@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+.title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.title h2 {
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  width: 330px;
+  margin: 80px auto 10px;
+  border-bottom: 4px solid #6AC5B0;
+}
+.title p {
+  font-size: 20px;
+  font-weight: bold;
+}
+/*-------------introduction-------------------*/
+.introduction{
+  background-color: #F5FEFC;
+}
+.introduction .wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  max-width: 1400px;
+}
+.introduction__photo {
+  margin: 0 auto 20px;
+}
+.introduction__photo img {
+  width: 380px;
+  height: 380px;
+  border-radius: 380px;
+  object-fit: cover;
+}
+.introduction__description{
+  flex-basis: 50%;
+  padding: 0 50px 0;
+}
+.introduction__description h3{
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 23px;
+}
+.introduction__description-top{
+  padding-bottom: 18px;
+  line-height: 22px;
+}
+.introduction__description-bottom{
+  line-height: 22px;
+}
+@media (max-width: 1024px) {
+  .introduction .wrapper{
+    display: block;
+  }
+  .introduction__description {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .introduction__description h3 {
+    text-align: center;
+  }
+}
+@media (max-width:500px){
+  .introduction__photo{
+    width: 200px;
+  }
+  .introduction__photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 380px;
+  object-fit: cover;
+}
+}
+/*----------------年表共通--------------------*/
+.history-container{
+  padding-top: 100px;
+}
+.year-month{
+  width: 120px;
+}
+/*-------------education-------------------*/
+.education,
+.work_history,
+.study_history{
+  padding-bottom: 100px;
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+}
+.education h3,
+.work_history h3,
+.study_history h3{
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  text-align: center;
+}
+.education ol li,
+.work_history ol li,
+.study_history ol li{
+  display: flex;
+  line-height: 26px;
+}
+.education ol li p:last-child,
+.work_history ol li p:last-child,
+.study_history ol li p:last-child{
+  width: 380px;
+}
+@media (max-width: 500px){
+  .education ol li,
+  .work_history ol li,
+  .study_history ol li{
+  display: block;
+  line-height: 22px;
+    padding-bottom: 15px;
+}
+}

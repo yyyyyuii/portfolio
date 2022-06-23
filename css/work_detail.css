@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0 50px;
+}
+h2 span{
+  font-size: 20px;
+}
+.works__mock{
+  width: 90%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.works__mock img{
+  width: 100%;
+}
+.works__description{
+  padding-bottom: 50px;
+}
+.works__description dl{
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.works__description dt{
+  font-weight: 14px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+.works__description dd{
+  padding-bottom: 30px;
+}
+.works__description li{
+  line-height: 1.2em;
+  margin-left: 1em;
+  text-indent: -1em;
+}
+.work__theme{
+  text-decoration: underline;
+}
+.work_all{
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.work_all img{
+  width: 100%;
+}
+.button{
+  margin-bottom: 100px;
+}
+/*------ボタン------*/
+/*.works_button_wrappper{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+.button.to-before{
+  margin-left: 10.3%;
+  width: 150px;
+  height: 50px;
+}
+.button.to-before a{
+  font-size: 16px;
+  line-height: 50px;
+}
+.button.to-before .button-arrow {
+  width: 50px;
+  height: 2px;
+  right: 122px;
+}
+.button.to-before .button-arrow::after {
+  width: 14px;
+  height: 2px;
+  top: -4.5px;
+  left: -2.8px;
+  transform: rotate(-45deg);
+}
+.button.to-before:hover .button-arrow {
+  transform: translateX(-20px);
+  transition: all .8s;
+}
+.button.to-after{
+  margin-right: 10.3%;
+  width: 150px;
+  height: 50px;
+}
+.button.to-after a{
+  font-size: 16px;
+  line-height: 50px;
+}
+.button.to-after .button-arrow {
+  width: 50px;
+  height: 2px;
+  left: 122px;
+}
+.button.to-after .button-arrow::after {
+  width: 14px;
+  height: 2px;
+  top: -4.5px;
+  right: -2.8px;
+  transform: rotate(45deg);
+}
+.button.to-after:hover .button-arrow {
+  transform: translateX(20px);
+  transition: all .8s;
+}*/

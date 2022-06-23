@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+.title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.title h2 {
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  width: 330px;
+  margin: 80px auto 10px;
+  border-bottom: 4px solid #6AC5B0;
+}
+.title p {
+  font-size: 20px;
+  font-weight: bold;
+}
+/*--------------Skill------------------*/
+.wrapper {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  background-color: #F5FEFC;
+}
+.skill__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto 120px;
+  padding: 100px 0 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill ul li {
+  width: 350px;
+  margin: 0 auto;
+  padding: 0 20px 25px;
+}
+.skill ul li p {
+  display: inline-block;
+  line-height: 21px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+}
+.skill ul li p:first-child {
+  font-size: 24px;
+  width: 170px;
+  padding-bottom: 15px;
+}
+.skill ul li p:nth-child(2) {
+  font-size: 24px;
+}
+.skill__sidecolor {
+  display: inline-block;
+  width: 8px;
+  height: 30px;
+  margin-right: 6px;
+  vertical-align: sub;
+}
+.ps {
+  background-color: #229BFF;
+}
+.ai {
+  background-color: #FF8400;
+}
+.fig {
+  background-color: #9338EB;
+}
+.ae{
+  background-color: #9999F8;
+}
+.pr{
+  background-color: #000057;
+}
+.dw {
+  background-color: #FF50F4;
+}
+.vsce {
+  background-color: #1F9CF0;
+}
+.st {
+  background-color: #FFAB36;
+}
+.HTML {
+  background-color: #E44F26;
+}
+.CSS {
+  background-color: #1572B6;
+}
+.jq {
+  background-color: #0868AC
+}
+.js {
+  background-color: #F7DF1E
+}
+/*--------------Qualification------------------*/
+.qualification {
+  width: 480px;
+  margin: 0 auto 150px;
+}
+.qualification h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.qualification li {
+  display: flex;
+  align-items: flex-start;
+  padding: 3px 0;
+}
+.qualification li p time {
+  display: block;
+  width: 100px;
+}
+.qualification li p {
+  line-height: 1.5em;
+}
+@media (max-width:500px){
+  .qualification{
+    width: 90%;
+  }
+  .qualification li {
+  display: block;
+  padding: 5px 0;
+}
+}
