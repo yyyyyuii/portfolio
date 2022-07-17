@@ -14,7 +14,13 @@ h2 span{
   padding-bottom: 20px;
   margin: 0 auto;
 }
-.works__mock img{
+.works__chirashi{
+  width: 40%;
+  height: auto;
+  margin: 0 auto 20px;;
+}
+.works__mock img,
+.works__chirashi img{
   width: 100%;
 }
 .works__description{
