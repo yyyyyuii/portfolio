@@ -127,6 +127,7 @@
   .skill ul li {
     margin: 0;
     padding: 0 0 25px;
+    width: 100%;
   }
   .qualification{
     width: 90%;

@@ -17,7 +17,7 @@ h2 span{
 .works__chirashi{
   width: 40%;
   height: auto;
-  margin: 0 auto 20px;;
+  margin: 0 auto 20px;
 }
 .works__mock img,
 .works__chirashi img{
@@ -57,6 +57,18 @@ h2 span{
 }
 .button{
   margin-bottom: 100px;
+}
+@media (max-width:786px){
+  .works__description dl{
+    margin: 0;
+    width: 100%;
+  }
+  .works__chirashi{
+  width: 80%;
+}
+  .work_all{
+  width: 80%;
+}
 }
 /*------ボタン------*/
 /*.works_button_wrappper{
