@@ -39,6 +39,9 @@ h2 span{
 .works__description dd{
   padding-bottom: 30px;
 }
+.works__description .link:hover{
+  border-bottom: 1px solid #000;
+}
 .works__description li{
   line-height: 1.2em;
   margin-left: 1em;
